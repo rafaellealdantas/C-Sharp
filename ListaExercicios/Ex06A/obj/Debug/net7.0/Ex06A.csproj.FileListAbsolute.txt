@@ -1,0 +1,15 @@
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\bin\Debug\net7.0\Ex06A.exe
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\bin\Debug\net7.0\Ex06A.deps.json
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\bin\Debug\net7.0\Ex06A.runtimeconfig.json
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\bin\Debug\net7.0\Ex06A.dll
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\bin\Debug\net7.0\Ex06A.pdb
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\obj\Debug\net7.0\Ex06A.csproj.AssemblyReference.cache
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\obj\Debug\net7.0\Ex06A.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\obj\Debug\net7.0\Ex06A.AssemblyInfoInputs.cache
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\obj\Debug\net7.0\Ex06A.AssemblyInfo.cs
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\obj\Debug\net7.0\Ex06A.csproj.CoreCompileInputs.cache
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\obj\Debug\net7.0\Ex06A.dll
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\obj\Debug\net7.0\refint\Ex06A.dll
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\obj\Debug\net7.0\Ex06A.pdb
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\obj\Debug\net7.0\Ex06A.genruntimeconfig.cache
+C:\Users\autologon\Documents\C#\ListaExercicios\Ex06A\obj\Debug\net7.0\ref\Ex06A.dll

@@ -1,0 +1,14 @@
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\obj\Debug\net8.0\Herança.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\obj\Debug\net8.0\Herança.AssemblyInfoInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\obj\Debug\net8.0\Herança.AssemblyInfo.cs
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\obj\Debug\net8.0\Herança.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\bin\Debug\net8.0\Herança.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\bin\Debug\net8.0\Herança.deps.json
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\bin\Debug\net8.0\Herança.runtimeconfig.json
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\bin\Debug\net8.0\Herança.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\bin\Debug\net8.0\Herança.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\obj\Debug\net8.0\Herança.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\obj\Debug\net8.0\refint\Herança.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\obj\Debug\net8.0\Herança.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\obj\Debug\net8.0\Herança.genruntimeconfig.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula\Herança\obj\Debug\net8.0\ref\Herança.dll

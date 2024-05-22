@@ -1,0 +1,14 @@
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\bin\Debug\net8.0\aula01.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\bin\Debug\net8.0\aula01.deps.json
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\bin\Debug\net8.0\aula01.runtimeconfig.json
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\bin\Debug\net8.0\aula01.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\bin\Debug\net8.0\aula01.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\obj\Debug\net8.0\aula01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\obj\Debug\net8.0\aula01.AssemblyInfoInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\obj\Debug\net8.0\aula01.AssemblyInfo.cs
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\obj\Debug\net8.0\aula01.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\obj\Debug\net8.0\aula01.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\obj\Debug\net8.0\refint\aula01.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\obj\Debug\net8.0\aula01.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\obj\Debug\net8.0\aula01.genruntimeconfig.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\DEV\C#\Estudo\Aula01\obj\Debug\net8.0\ref\aula01.dll

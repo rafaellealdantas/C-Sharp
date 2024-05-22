@@ -1,0 +1,7 @@
+Exercício 1: Classe Carro
+Crie uma classe chamada Carro que tenha os seguintes atributos privados:
+
+marca (string)
+modelo (string)
+ano (int)
+Adicione um construtor que inicializa esses atributos. Crie métodos públicos para definir e obter o valor de cada atributo (use propriedades get e set). Escreva um método que exiba as informações do carro.

@@ -1,0 +1,15 @@
+C:\Users\autologon\Desktop\DEV\Estatico\obj\Debug\net7.0\Estatico.csproj.AssemblyReference.cache
+C:\Users\autologon\Desktop\DEV\Estatico\obj\Debug\net7.0\Estatico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\autologon\Desktop\DEV\Estatico\obj\Debug\net7.0\Estatico.AssemblyInfoInputs.cache
+C:\Users\autologon\Desktop\DEV\Estatico\obj\Debug\net7.0\Estatico.AssemblyInfo.cs
+C:\Users\autologon\Desktop\DEV\Estatico\obj\Debug\net7.0\Estatico.csproj.CoreCompileInputs.cache
+C:\Users\autologon\Desktop\DEV\Estatico\bin\Debug\net7.0\Estatico.exe
+C:\Users\autologon\Desktop\DEV\Estatico\bin\Debug\net7.0\Estatico.deps.json
+C:\Users\autologon\Desktop\DEV\Estatico\bin\Debug\net7.0\Estatico.runtimeconfig.json
+C:\Users\autologon\Desktop\DEV\Estatico\bin\Debug\net7.0\Estatico.dll
+C:\Users\autologon\Desktop\DEV\Estatico\bin\Debug\net7.0\Estatico.pdb
+C:\Users\autologon\Desktop\DEV\Estatico\obj\Debug\net7.0\Estatico.dll
+C:\Users\autologon\Desktop\DEV\Estatico\obj\Debug\net7.0\refint\Estatico.dll
+C:\Users\autologon\Desktop\DEV\Estatico\obj\Debug\net7.0\Estatico.pdb
+C:\Users\autologon\Desktop\DEV\Estatico\obj\Debug\net7.0\Estatico.genruntimeconfig.cache
+C:\Users\autologon\Desktop\DEV\Estatico\obj\Debug\net7.0\ref\Estatico.dll

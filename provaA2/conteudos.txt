@@ -1,0 +1,13 @@
+oq falta React; Componentes; Navegação; Integração com a API; Fetch ou Axios; Interação com os elementos HTML.
+
+
+
+React: Componentização e Estado no React
+
+React: CRUD com a API em C#
+
+React: Validações de formulário
+
+React: Aula para desenvolvimento do projeto
+
+GP UP

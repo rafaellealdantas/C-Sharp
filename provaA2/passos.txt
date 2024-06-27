@@ -1,0 +1,192 @@
+criando solução / projeto / github -
+
+01 - criar solução : dotnet new sln --output MySolution
+
+02 - criar um projeto : dotnet new web -n MinimalApiProject
+
+03 - adicionar solução ao projeto :  dotnet sln add NomeDoProjeto
+
+04 - abrir o teminal na pasta do projeto e inserir o código : git status para verificar se a pasta esta sendo mapeada
+
+05 - inserir : git add . para o git monitorar os arquivos
+
+06 - git status para verificar se esta tudo sendo monitorado
+
+07 - git commit -m "nome do projeto" para dar commit 
+
+08 - git push para enviar para o repositorio
+
+
+Configurando banco de dados -
+
+01 - usar o código : dotnet add package Microsoft.EntityFrameworkCore.Sqlite // dentro da pasta do projeto
+
+02 - usar o código : dotnet add package Microsoft.EntityFrameworkCore.Design // dentro da pasta do projeto
+
+obs: as duas bibliotecas vão para o arquivo csproj com o nome: 
+<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
+e
+<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.6" />
+
+
+pasta models - 
+
+03 - dentro do projeto criar a pasta Models
+
+04 - dentro da pasta models criar uma classe, no exemplo da prova seria Funcionario.cs
+
+05 - ao criar a classe inserir o namespade, no caso do exemplo é : namespace Rafael.Models;
+
+06 - adicionar a classe :public class Funcionario
+{
+    
+}
+
+07 - dentro da classe adicionar as variaveis, no caso da prova seria nome e cpf, que será adicionado assim:
+
+	public string? Nome {get; set; }
+
+	public string? Cpf {get; set; }
+
+por enquanto a classe funcionario esta assim:
+
+namespace Rafael.Models;
+
+public class Funcionario
+{
+    public string? Nome {get; set; }
+
+    public string? Cpf {get; set; }
+}
+
+08 - criar a classe AppDataContext para configurar o banco
+
+09 - usar ":" para herdar o Dbcontext assim :
+
+namespace Rafael.Models;
+
+public class AppDataContext : DbContext
+{
+
+}
+
+10 - importar a biblioteca : using Microsoft.EntityFrameworkCore;
+
+11 - configurar banco :
+    
+public DbSet<Produto> Produtos { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlite("Data Source=nomeDoSeuBanco.db");
+    }
+
+obs: tudo fica assim: 
+
+using Microsoft.EntityFrameworkCore;
+namespace Rafael.Models;
+
+public class AppDataContext : DbContext
+{
+    public DbSet<Funcionario>? Funcionarios { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlite("Data Source=nomeDoSeuBanco.db");
+    }
+}
+
+12 - dentro de Funcionario adionar um Id : 
+
+    public Funcionario()
+    {
+        Id = Guid.NewGuid().ToString();
+    }
+    public string? Id {get; set; }
+
+ou
+
+    public string? Id {get; set; } = Guid.NewGuid().ToString();
+
+ou
+
+namespace Rafael.Models;
+
+    public int Id {get; set; } 
+
+13 - no terminal criar primeira migração : dotnet ef migrations add InitialCreate
+
+14 - no terminal fazer a atualização do banco com base na ultima migração : dotnet ef database update
+
+obs: sempre que fizer uma alteração e quiser salvar no BD usar esses dois codigos
+
+15 - abrir o DbBrowser para ver o banco de dados
+
+alterando o arquivo program:
+
+16 - colocar o : using Rafael. Models; para conseguir acessar o banco de dados
+
+17 - registrando o serviço de banco de dados dentro da aplicação utilizando o : builder.Services.AddDbContext<SeuDbContext>(); logo abaixo de var builder
+
+método post
+
+18 - app.MapPost("/produto", async (Produto produto, SeuDbContext context) =>
+app.MapPost("/api/funcionario/cadastrar",  ([FromBody]Funcionario funcionario, [FromServices] AppDataContext ctx) =>
+{
+    ctx.Funcionarios.Add(funcionario);
+    ctx.SaveChanges();
+    return Results.Created($"/produto/{funcionario.Id}", funcionario);
+});
+
+Teste -
+
+01 - no Insomnia ir no + e selecionar HTTP Request e renomear o new request 
+
+02 - ir em body e seleconar json, colocando oq for necessario, no caso do exemplo seria nome e cpf da seguinte forma:
+
+{
+"nome":"nome do funcionario",
+"cpf":"12345678912"
+}
+
+03 - selecionar POST e colocar a url de acordo com a porta e selecionar o caminho que esta em MapPost
+
+04 - verificar se o arquivo foi salvo no SQLite na aba navegar dados
+
+busca - 
+
+para buscar elementos :
+ app.MapGet("/api/folha/buscar/{mes}/{ano}",([FromServices] AppDataContext ctx,
+[FromRoute] int mes, [FromRoute] int ano) =>
+{    
+    Folha?folha = ctx.Folhas.FirstOrDefault(f => f.Mes == mes && f.Ano == ano);
+    if(folha is null)
+    {
+        return Results.NotFound();
+    }
+    return Results.Ok(folha);
+});
+
+
+envio -
+
+app.MapPost("/api/folha/cadastrar",  ([FromBody]Folha folha, [FromServices] AppDataContext ctx) =>
+{    
+    folha.calcularSalario();
+    ctx.Folhas.Add(folha);
+    ctx.SaveChanges();
+    return Results.Created($"/produto/{folha.Id}", folha);
+});
+
+listar - 
+
+app.MapGet("/api/funcionario/listar",([FromServices] AppDataContext ctx) =>
+{    
+    return Results.Ok(ctx.Funcionarios.ToList());
+});
+
+
+
+
+
+
